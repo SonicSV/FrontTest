@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Todo</h1>
+    <div class="flex-wrapper-login">
+        <div class="loggin">
+            <h2>Введите имя пользователя</h2>
+            <input type="text" id="username">
+            <div class="button-wrapper">
+                <button id="login-btn">Войти</button>
+            </div>
+        </div>       
+    </div>
+    <div class="show-username">
+        <h2>Имя</h2>
+        <div class="button-wrapper">
+            <button id="exit-btn">Выйти</button>
+        </div>
+    </div>
+    <div class="flex-wrapper-todo">
+        <div class="add-todo-wrapper">
+            <div class="input-wrapper">
+                <h2>Новая задача</h2>
+                <input type="text" id="description-task">
+            </div>
+            <div class="button-wrapper">
+                <button id="add-task-btn">Добавить</button>
+            </div>
+        </div>
+        <h2>Задачи:</h2>
+        <div class="todos-wrapper"></div>
+    </div>
+    <script src="/dist/main.js"></script>
+</body>
+</html>

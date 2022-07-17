@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+
+.todo-item.checked {
+    background-color: darkgrey;
+    opacity: 0,5;
+}
+
+.todo-item.removing {
+    animation: opacity 1s ease-in-out;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
